@@ -26,3 +26,16 @@ interface Page {
     accounts: ['Alex'],
     status: 'close',
   };
+
+  // Альтернатива з використанням type:
+
+  // type Page = {
+  //   title: string;
+  //   likes: number;
+  //   accounts: string[];
+  //   status: 'open' | 'close';
+  //   details?: {
+  //     createAt: Date;
+  //     updateAt: Date;
+  //   };
+  // };
